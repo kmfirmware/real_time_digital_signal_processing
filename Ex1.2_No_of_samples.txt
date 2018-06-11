@@ -1,0 +1,19 @@
+Exercise 1.2 - No. of Samples
+Chapter 1, Exercise 1.2 - No. of Samples
+Post your solution in this forum.  Does your answer for the audio CD conform to what we know about audio CD capacity?
+The number of samples required for a given sample rate can be determined by multiplying the frequency by the desired duration. Frequency is given in samples per second (Hz).
+
+A) 8kHz * 50ms = 400 samples
+
+B) 16kHz * 50ms = 800 samples
+
+C) 44.1kHz * 50ms = 2205 samples
+
+D) 48kHz * 50ms = 2400 samples
+
+CDs commonly hold 700MB of data.  To determine the number of minutes a CD can hold, we assume a sample rate of 44.1kHz. We also assume stereo sound using two channels with 16bits per sample per channel.
+
+700MB8bitsBytesample32bitssecond44.1ksamples1min60seconds=66.13min
+
+The average album contains about 13 songs with each song averaging 4mins for a total of 52 minutes. 
+118 words

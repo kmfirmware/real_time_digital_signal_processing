@@ -1,0 +1,1 @@
+The correct sampling rate is 16kHz.  The rates lower than 16kHz make the speech sound slow and stretched out.  The rates above 16kHz make the speech sound faster and compressed.

@@ -1,0 +1,28 @@
+<head>
+<style>
+table {
+    border:1px solid #000;
+    border-collapse:collapse;
+}
+td {
+    border:none;
+}
+</style>
+</head>
+<body>
+<table cellpadding="10">
+<tr><th>Arithmetic</th><th>Function</th><th>Implementation details</th><th>Profile(cycles/call)</th></tr>
+<tr><td>Floating-point C</td><td>fCos1()</td><td>Direct implementation, 12 muls</td><td>932</td></tr>
+<tr><td></td><td>fCos2()</td><td>Reduced muls, 4 muls</td><td>422</td></tr>
+<tr><td>Fixed-point C</td><td>iCos1()</td><td>Using fixed-point arithmetic</td><td>56</td></tr>
+<tr><td></td><td>iCos()</td><td>Simulate assembly instruction</td>    <td>67</td></tr>
+<tr><td>Assembly language</td><td>cosine()</td><td>Hand-code assembly routine</td><td>18</td></tr>
+</table>
+</br></br>
+<table cellpadding="5">
+<tr>
+<td>&#x3B8;</td><td>0.1667</td><td>0.2500</td><td>0.3333</td><td>0.5000</td><td>0.6667</td><td>0.7500</td><td>0.8333</td><td>1.0000</td><td>-0.8333</td><td>-0.7500</td><td>-0.6667</td><td>-0.5000</td><td>-0.3334</td><td>-0.2500</td><td>-0.1667</td><td>-0.0000</td></tr>
+<tr><td>cos&#x3B8;</td><td>0.8660</td><td>0.7071</td><td>0.5000</td><td>0.0000</td><td>-0.5000</td><td>-0.7071</td><td>-0.8660</td><td>-1.0000</td><td>-0.8660</td><td>-0.7071</td><td>-0.5000</td><td>0.0000</td><td>0.5000</td><td>0.7071</td><td>0.8660</td><td>1.0000</td></tr>
+<tr><td>sin&#x3B8;</td><td>0.5000</td><td>0.7071</td><td>0.8660</td><td>1.0000</td><td>0.8660</td><td>0.7071</td><td>0.5000</td><td>0.0000</td><td>-0.5000</td><td>-0.7071</td><td>-0.8660</td><td>-1.0000</td><td>-0.8660</td><td>-0.7071</td><td>-0.5000</td><td>0.0000</td></tr>
+</table>
+</body>

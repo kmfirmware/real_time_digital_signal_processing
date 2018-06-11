@@ -1,0 +1,19 @@
+<head>
+<style>
+table {
+    border:1px solid #000;
+    border-collapse:collapse;
+}
+td {
+    border:none;
+}
+</style>
+</head>
+<body>
+<table border="1" cellpadding="5">
+<tr>
+<td>&#x3B8;</td><td>0.1667</td><td>0.2500</td><td>0.3333</td><td>0.5000</td><td>0.6667</td><td>0.7500</td><td>0.8333</td><td>1.0000</td><td>-0.8333</td><td>-0.7500</td><td>-0.6667</td><td>-0.5000</td><td>-0.3334</td><td>-0.2500</td><td>-0.1667</td><td>-0.0000</td></tr>
+<tr><td>cos&#x3B8;</td><td>0.8660</td><td>0.7071</td><td>0.5000</td><td>0.0000</td><td>-0.5000</td><td>-0.7071</td><td>-0.8660</td><td>-1.0000</td><td>-0.8660</td><td>-0.7071</td><td>-0.5000</td><td>0.0000</td><td>0.5000</td><td>0.7071</td><td>0.8660</td><td>1.0000</td></tr>
+<tr><td>sin&#x3B8;</td><td>0.5000</td><td>0.7071</td><td>0.8660</td><td>1.0000</td><td>0.8660</td><td>0.7071</td><td>0.5000</td><td>0.0000</td><td>-0.5000</td><td>-0.7071</td><td>-0.8660</td><td>-1.0000</td><td>-0.8660</td><td>-0.7071</td><td>-0.5000</td><td>0.0000</td></tr>
+</table>
+</body>

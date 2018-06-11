@@ -1,0 +1,3 @@
+SQNR Question
+
+Why is the signal-to-quantization ratio SNQR equal to approximately 6*B, where B is the number of bits being used to encode the digitized signal?
